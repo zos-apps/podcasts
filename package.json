@@ -19,7 +19,21 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "Discover, subscribe, and listen to podcasts.",
+    "help": [
+      "Search for podcasts",
+      "Subscribe to follow",
+      "Download for offline"
+    ],
+    "docs": "https://zos-apps.github.io/podcasts",
+    "site": "https://github.com/zos-apps/podcasts",
+    "features": [
+      "Podcast discovery",
+      "Subscriptions",
+      "Episode downloads",
+      "Playback controls"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -52,5 +66,13 @@
     "podcasts",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

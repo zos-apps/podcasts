@@ -1,54 +1,74 @@
-# 🎙️ Podcasts
+# Podcasts
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/podcasts/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/podcasts)
+🎙️ Discover, subscribe, and listen to podcasts.
 
-> Listen to podcasts
+[![CI](https://github.com/zos-apps/podcasts/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/podcasts/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/podcasts.svg)](https://www.npmjs.com/package/@zos-apps/podcasts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/podcasts)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/podcasts
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Podcasts from '@zos-apps/podcasts';
-
-function App() {
-  return <Podcasts />;
-}
-```
+Discover, subscribe, and listen to podcasts.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Podcast discovery
+- Subscriptions
+- Episode downloads
+- Playback controls
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Podcasts".
 
-**Media**
+### Via npm
+```bash
+npm install @zos-apps/podcasts
+```
 
-## Permissions
+## Usage
 
-- `network`
+- Search for podcasts
+- Subscribe to follow
+- Download for offline
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/podcasts)
-- [GitHub Repository](https://github.com/zos-apps/podcasts)
-- [Report Issues](https://github.com/zos-apps/podcasts/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/podcasts)
+- [API Reference](https://zos-apps.github.io/podcasts/api)
+- [Changelog](https://github.com/zos-apps/podcasts/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/podcasts/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
