@@ -8,7 +8,7 @@ const PODCASTS = [
   { name: 'Huberman Lab', author: 'Andrew Huberman', icon: '🔬', episodes: 200 },
   { name: 'Joe Rogan Experience', author: 'Joe Rogan', icon: '🎙️', episodes: 2000 },
   { name: 'This American Life', author: 'Ira Glass', icon: '🇺🇸', episodes: 800 },
-  { name: 'Conan O\\'Brien Needs A Friend', author: 'Conan', icon: '😄', episodes: 200 },
+  { name: "Conan O'Brien Needs A Friend", author: 'Conan', icon: '😄', episodes: 200 },
 ];
 
 const Podcasts: React.FC<PodcastsProps> = ({ onClose }) => {
