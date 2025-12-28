@@ -33,7 +33,27 @@
       "Subscriptions",
       "Episode downloads",
       "Playback controls"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/podcasts"
+    },
+    "featured": false,
+    "tags": [
+      "media",
+      "audio",
+      "video",
+      "podcasts"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/podcasts/issues",
+    "changelog": "https://github.com/zos-apps/podcasts/releases"
   },
   "scripts": {
     "build": "tsup",
