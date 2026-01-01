@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import type { AppProps } from '@zos-apps/config';
+import { useLocalStorage } from '@zos-apps/config';
 
-interface PodcastsProps { onClose: () => void; }
+interface Podcast { name: string; author: string; icon: string; episodes: number; }
 
-const PODCASTS = [
+const PODCASTS: Podcast[] = [
   { name: 'The Daily', author: 'NY Times', icon: '📰', episodes: 1200 },
   { name: 'Lex Fridman Podcast', author: 'Lex Fridman', icon: '🧠', episodes: 400 },
   { name: 'Huberman Lab', author: 'Andrew Huberman', icon: '🔬', episodes: 200 },
@@ -11,7 +13,8 @@ const PODCASTS = [
   { name: "Conan O'Brien Needs A Friend", author: 'Conan', icon: '😄', episodes: 200 },
 ];
 
-const Podcasts: React.FC<PodcastsProps> = ({ onClose }) => {
+const Podcasts: React.FC<AppProps> = ({ onClose: _onClose }) => {
+  const [_subscribed, _setSubscribed] = useLocalStorage<string[]>('podcasts-subscribed', []);
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
